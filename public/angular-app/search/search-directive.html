@@ -1,0 +1,9 @@
+<!--<div>-->
+<h1>{{ vm.title }}</h1>
+<ul>
+    <li ng-repeat="customer in vm.customers">{{ customer.firstName }} {{ customer.lastName }}</li>
+</ul>
+<ul>
+    <li ng-repeat="name in vm.names track by $index">{{ name }}</li>
+</ul>
+<!--</div>-->
